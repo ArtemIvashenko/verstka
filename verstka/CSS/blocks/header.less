@@ -1,0 +1,89 @@
+//main: ../style.less;
+header{
+  width: 1440px;
+  height: 1074.5px;
+  background-image: url('@{img}fonHeader.png');
+  background-repeat: no-repeat;
+  display: flex;
+}
+.headerMenu{
+  display: flex;
+  height: 21px;
+  gap: 50px;
+  color: @text-color;
+  list-style-type: none;
+  & a{
+    text-decoration: none;
+    color:@text-color;
+    font-family: @font-family;
+    font-size: @font-size-text;
+    font-weight: 700;
+    line-height: 20.83px;
+    text-align: left;
+  }
+  &:hover,
+  &:focus {
+    color: @hover-color;
+  }
+}
+.header-top{
+  width:82%;
+  height: 53px;
+  position: absolute;
+  top: 58px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  font-family: @font-family;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: left;
+  width: 295px;
+  height: 50px;
+  gap: 15px;
+  a{
+    font-size: 38px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none
+  }
+  b{
+    font-size: 60px;
+    color:aqua;
+  }
+}
+.rightMenu{
+  width: 295px;
+  height: 53px;
+  display:flex;
+  justify-content: flex-end;
+}
+.entertoSite{
+  width: 147px;
+  height: 53px;
+  padding: 15px 30px ;
+  gap: 10px;
+  border-radius: @border-radius-button;
+  color: @text-color;
+  background-color: white;
+  .text-color-based-on-background(white);
+}
+//Контент
+.header-content{
+  width: 575px;
+  height: 659px;
+  top: 216px;
+  left: 130px;
+  position: absolute;
+}
+.content_name{
+  font-family: @font-family;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.5px;
+  text-align: left;
+
+}
