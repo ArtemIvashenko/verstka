@@ -1,0 +1,9 @@
+//main:style.less;
+//миксин для опеределения цвета текста в зависимости от фона
+.text-color-based-on-background(@background-color) {
+  @lightness: lightness(@background-color);
+
+  @text-color: if(@lightness > 60%, black, white);
+
+  color: @text-color;
+}

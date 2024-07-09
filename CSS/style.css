@@ -1,0 +1,215 @@
+body {
+  margin: auto;
+}
+header {
+  width: 1440px;
+  height: 1074.5px;
+  background-image: url('../img/fonHeader.png');
+  background-repeat: no-repeat;
+  display: flex;
+}
+.headerMenu {
+  display: flex;
+  height: 21px;
+  gap: 50px;
+  color: white;
+  list-style-type: none;
+}
+.headerMenu a {
+  text-decoration: none;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: left;
+}
+.headerMenu:hover,
+.headerMenu:focus {
+  color: aqua;
+}
+.header-top {
+  width: 82%;
+  height: 53px;
+  position: absolute;
+  top: 58px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: left;
+  width: 295px;
+  height: 50px;
+  gap: 15px;
+}
+.logo a {
+  font-size: 38px;
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo b {
+  font-size: 60px;
+  color: aqua;
+}
+.rightMenu {
+  width: 295px;
+  height: 53px;
+  display: flex;
+  justify-content: flex-end;
+}
+.entertoSite {
+  width: 147px;
+  height: 53px;
+  padding: 15px 30px ;
+  gap: 10px;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+}
+.header-content {
+  width: 575px;
+  height: 659px;
+  top: 216px;
+  left: 130px;
+  position: absolute;
+}
+.content_name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.5px;
+  text-align: left;
+}
+.features .container {
+  width: 1440px;
+  height: 1023px;
+  position: absolute;
+  top: 1075px;
+  left: 131px;
+  padding: 200px 0px;
+  gap: 84px;
+  display: flex;
+  flex-direction: column;
+}
+.siteInfo {
+  display: flex;
+  width: 1179px;
+  height: 160px;
+  justify: space-between;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+.siteInfoLeft {
+  width: 50%;
+  height: 160px;
+  gap: 10px;
+}
+.siteInforight {
+  width: 50%;
+  height: 132px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.slider {
+  width: 1178px;
+  height: 379px;
+  gap: 30px;
+  display: flex;
+}
+.feature {
+  width: 372.67px;
+  height: 379px;
+}
+.book-info .container {
+  width: 1440px;
+  height: 720px;
+  position: absolute;
+  top: 2098px;
+  left: 0;
+  padding: 100px 130px;
+  gap: 10px;
+  background-color: #00BAC7;
+  color: white;
+}
+.sliderInfo {
+  width: 100%;
+  height: 520px;
+  display: flex;
+  gap: 134px;
+  justify-content: space-between;
+}
+.textaboutsite {
+  width: 50%;
+}
+.buyBook {
+  width: 1440px;
+  height: 2966.98px;
+  position: relative;
+  top: 1750px;
+  background-image: url("../img/backgroundBuyBook.png");
+  background-repeat: no-repeat;
+}
+.buyBook .container {
+  width: 1180px;
+  height: 2966.98px;
+  position: absolute;
+  top: 0;
+  left: 130px;
+}
+.buyBookone {
+  display: flex;
+  width: 1180px;
+  height: 999.63px;
+  padding: 200px 0px ;
+  gap: 30px;
+}
+.buyBookone ul {
+  width: 50%;
+  height: 572px;
+}
+.imageBook {
+  width: 575px;
+  height: 599.63px;
+}
+.imageBook img {
+  width: 100%;
+  height: auto;
+}
+.buyBookdown {
+  display: flex;
+  width: 1180px;
+  height: 826.35px;
+  padding: 0px 0px 200px 0px;
+  justify: space-between;
+}
+.rightBook {
+  width: 50%;
+  height: 626.35px;
+}
+.leftBook {
+  width: 50%;
+  height: 626.35px;
+  gap: 10px;
+}
+.leftBook img {
+  width: 100%;
+  height: auto;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
